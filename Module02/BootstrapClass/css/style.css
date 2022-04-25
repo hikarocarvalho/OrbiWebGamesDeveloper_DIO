@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #9FC131;
+    justify-content: space-between;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.navbar{
+    background-color: #D6D58E;
+    box-shadow: 0px 1px 5px 1px #042940;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.quem-somos{
+    color: #005C53;
+}
+.margin{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.rounded-circle{
+    width: 200px;
+    height: 200px;
+}
+.article-images{
+    width: 60%;
+    height: auto;
+    border-radius: 0.2em;
+    box-shadow: 0px 0px 5px 0.01em #042940;
+}
+.page{
+    min-height: 100vh;
+}
+.footer{
+    background-color: #D6D58E;
+    box-shadow: 0px -1px 5px 1px #042940;
+}
+.image-service{
+    width: 100%;
+    height: auto;
+}
+.item{
+    background-color: #005C53;
+    color: #9FC131;
+    border: 1em solid transparent;
+    box-shadow: 0px -1px 5px 1px #D6D58E;
+}
+#parceiros{
+    background-color: #005C53;
+    color: #9FC131;
+}

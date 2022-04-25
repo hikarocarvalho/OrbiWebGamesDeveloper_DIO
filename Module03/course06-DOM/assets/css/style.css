@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    display: flex;
+    width: fit-content;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    font-size: 2em;
+    padding: 1em;
+    background-color: rgb(71, 141, 233);
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: rgb(38, 120, 226);
+}
+.footer{
+    background-color: rgb(38, 120, 226);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 3em;
+}
+.darkmode{
+    background-color: black;
+    color: white;
+}

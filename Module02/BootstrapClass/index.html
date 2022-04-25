@@ -4,11 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Minha Página</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" >
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light" >
+        <a class="navbar-brand" href="#">
+            <img src="img/global-logo.png" >
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nab-item">
+                    <a class="nav-link" href="#quemSomos">
+                        Quem Somos
+                    </a>
+                </li>
+                <li class="nab-item">
+                    <a class="nav-link" href="#parceiros">
+                        Nossos Parceiros
+                    </a>
+                </li>
+                <li class="nab-item">
+                    <a class="nav-link" href="#servicos">
+                        Nossos Serviços
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="quemSomos" class="container-fluid quem-somos text-center margin page">
+        <h3> Quem somos </h3>
+        <img src="img/idea.jpg" class="rounded-circle">
+        <h2> Somos um time comprometido com resultados e respeito!</h2>
+    </section>
+    <section id="parceiros" class="page">
+        <div class="container-fluid text-center margin parceiros">
+            <h3>Nossos Parceiros</h3>
+                <div class="row margin">
+                    <article class="col-lg-4 margin">
+                        <img class="article-images" src="img/pexels-nataliya-vaitkevich-7172783.jpg">
+                    </article>
+                    <article class="col-lg-4  margin">
+                        <img class="article-images" src="img/pexels-nataliya-vaitkevich-7172864.jpg">
+                    </article>
+                    <article class="col-lg-4  margin">
+                        <img class="article-images" src="img/pexels-nataliya-vaitkevich-7173020.jpg">
+                    </article>
+                </div>
+        </div>
+    </section>
+    <section id="servicos" class="container-fluid quem-somos text-center margin page">
+        <h3>Nossos Serviços</h3>
+        <div class="container">
+            <div class="row">
+                
+                <article class="col-lg-4 margin item">
+                    <p>Lorem ipsum dolor sit amet. Aut dolor totam quo reprehenderit natus non officiis velit. Qui enim quibusdam rem quia laborum ea voluptatibus velit ut facere maxime et fugiat voluptates. Sed reiciendis dolorum et reiciendis nisi qui incidunt velit ut sapiente velit ea repellendus molestiae et minus Quis et illum galisum.</p>
+                    <img src="img/site01.jpg" class="image-service">
+                </article>
+                <article class="col-lg-4 margin item">
+                    <p>>Lorem ipsum dolor sit amet. Aut dolor totam quo reprehenderit natus non officiis velit. Qui enim quibusdam rem quia laborum ea voluptatibus velit ut facere maxime et fugiat voluptates. Sed reiciendis dolorum et reiciendis nisi qui incidunt velit ut sapiente velit ea repellendus molestiae et minus Quis et illum galisum.</p>
+                    <img src="img/site02.jpg" class="image-service">
+                </article>
+                <article class="col-lg-4 margin item">
+                    <p>>Lorem ipsum dolor sit amet. Aut dolor totam quo reprehenderit natus non officiis velit. Qui enim quibusdam rem quia laborum ea voluptatibus velit ut facere maxime et fugiat voluptates. Sed reiciendis dolorum et reiciendis nisi qui incidunt velit ut sapiente velit ea repellendus molestiae et minus Quis et illum galisum.</p>
+                    <img src="img/site03.jpg" class="image-service">
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer class="navbar-expand-lg navbar-light footer text-center">
+        Todos os direitos reservados
+        <br>
+        Desenvolvidor por hikaro f carvalho
+    </footer>
 </body>
 </html>
