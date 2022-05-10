@@ -1,0 +1,16 @@
+.explosion {
+	position:fixed;
+    max-width: 230px;
+}
+
+#second-explosion {
+	position:fixed;
+    max-width: 230px;
+	
+}
+
+#third-explosion {
+	width:44px;
+	height:51px;
+	position:absolute;
+}
